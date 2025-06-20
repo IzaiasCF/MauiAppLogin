@@ -29,6 +29,7 @@ public partial class Login : ContentPage
 			{
 				Usuario = txt_usuario.Text,
 				Senha = txt_senha.Text
+
 			};
 
 			// LINQ
