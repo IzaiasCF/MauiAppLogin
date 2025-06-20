@@ -15,8 +15,8 @@ public partial class Protegida : ContentPage
 		});
 	}
 
-    private async void Button_Clicked(object sender, EventArgs e)
-    {
+	private async void Button_Clicked(object sender, EventArgs e)
+	{
 		bool confirmacao = await DisplayAlert("Tem certeza?", "Sair do app?", "Sim", "Não");
 
 		if (confirmacao)
@@ -25,5 +25,5 @@ public partial class Protegida : ContentPage
 			App.Current.MainPage = new Login();
 		}
 		;
-    }
+	}
 }

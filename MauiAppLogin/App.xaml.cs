@@ -7,6 +7,10 @@ namespace MauiAppLogin
         {
             InitializeComponent();
 
+            string? usuario_logado = null;
+
+
+
             //MainPage = new AppShell();
             MainPage = new Login();
         }

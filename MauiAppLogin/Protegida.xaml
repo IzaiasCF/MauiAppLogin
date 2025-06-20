@@ -16,6 +16,7 @@
                             HorizontalTextAlignment="Center" />
 
                 <Label x:Name="lbl_boasvindas"
+                            Padding="10"
                             HorizontalTextAlignment="Center" />
 
                 <Button Text="Desconetar"
