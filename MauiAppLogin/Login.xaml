@@ -5,21 +5,26 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="Login">
 
-    <VerticalStackLayout VerticalOptions="Center"
-                         Spacing="10"
-                         Padding="10">
+    <VerticalStackLayout
+        Padding="10"
+        Spacing="10"
+        VerticalOptions="Center">
 
         <Label HorizontalOptions="Center" Text="Sistema de Login" />
 
         <Label Text="Usuário: " />
-        <Entry x:Name="txt.usuario" />
+        <Entry x:Name="txt_usuario" Placeholder="Usuário" />
 
         <Label Text="Senha" />
-        <Entry x:Name="txt.senha" IsPassword="True" />
+        <Entry
+            x:Name="txt_senha"
+            IsPassword="True"
+            Placeholder="Senha" />
 
-        <Button Text="Entrar" 
-                Clicked="Button_Clicked"
-                HorizontalOptions="Center" />
+        <Button
+            Clicked="Button_Clicked"
+            HorizontalOptions="Center"
+            Text="Entrar" />
 
     </VerticalStackLayout>
 
